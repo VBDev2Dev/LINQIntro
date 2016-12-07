@@ -21,7 +21,7 @@ Public Class frmLinq
 
             Case optDistinctRandom.Checked
 
-                Dim result = LinqData.GetDistintRandom.ToList
+                Dim result = LinqData.GetDistinctRandom.ToList
                 lstResults.DataSource = result
 
                 Console.WriteLine("Distinct Random")

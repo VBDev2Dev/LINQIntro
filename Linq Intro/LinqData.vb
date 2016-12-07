@@ -90,7 +90,7 @@ Public Class LinqData
 
     End Function
 
-    Shared Function GetDistintRandom() As IEnumerable(Of Integer)
+    Shared Function GetDistinctRandom() As IEnumerable(Of Integer)
         Return nums.GetRandomOrder
     End Function
 
